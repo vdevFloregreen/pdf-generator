@@ -9,7 +9,7 @@ export default defineConfig(({ mode }) => {
     plugins: [react(), tsconfigPaths({ root: '.' }), cssInjectedByJsPlugin()],
     resolve: {
       alias: {
-        '@pdfme/common': '/pdf-generator/packages/common/dist/cjs/src/index.js/pdf-generator/packages/common/dist/cjs/src/index.js'
+        '@pdfme/common': '/pdf-generator/packages/common/dist/cjs/src/index.js'
       }
     },
     build: {
