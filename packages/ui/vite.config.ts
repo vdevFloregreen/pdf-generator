@@ -7,11 +7,6 @@ export default defineConfig(({ mode }) => {
   return {
     define: { 'process.env.NODE_ENV': JSON.stringify(mode) },
     plugins: [react(), tsconfigPaths({ root: '.' }), cssInjectedByJsPlugin()],
-    resolve: {
-      alias: {
-        '@pdfme/common': 'packages/common/dist/cjs/src/index.js'
-      }
-    },
     build: {
       lib: {
         entry: 'src/index.ts',

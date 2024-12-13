@@ -7,7 +7,7 @@ export default defineConfig({
   plugins: [react()],
   resolve: {
     alias: {
-      '@pdfme/common': 'packages/common/dist/cjs/src/index.js'
+      '@pdfme/common': 'common/dist/cjs/src/index.js'
     }
   },
 });
