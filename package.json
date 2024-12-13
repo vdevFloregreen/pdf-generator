@@ -46,6 +46,7 @@
   "devDependencies": {
     "@babel/core": "^7.16.7",
     "@types/jest": "^27.5.2",
+    "@types/node": "^22.10.2",
     "@typescript-eslint/eslint-plugin": "^5.9.1",
     "@typescript-eslint/parser": "^5.9.1",
     "babel-loader": "^8.2.2",
@@ -60,7 +61,8 @@
     "ts-jest-resolver": "^2.0.0",
     "ts-loader": "^9.2.5",
     "ts-prune": "^0.10.3",
-    "typescript": "^4.5.4"
+    "typescript": "^4.5.4",
+    "vite-plugin-commonjs": "^0.10.4"
   },
   "dependencies": {
     "@pdfme/common": "^0.0.0",
