@@ -63,7 +63,9 @@
     "typescript": "^4.5.4"
   },
   "dependencies": {
+    "@pdfme/common": "^0.0.0",
     "@pdfme/generator": "^0.0.0",
+    "@pdfme/schemas": "^0.0.0",
     "@pdfme/ui": "^0.0.0"
   }
 }
