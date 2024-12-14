@@ -9,6 +9,6 @@
     "skipLibCheck": true,
     "outDir": "./dist",
     "declaration": true,
-    "declarationDir": "packages/dist/types/src"
+    "declarationDir": "./dist/types"
   }
 }

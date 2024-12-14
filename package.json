@@ -21,6 +21,16 @@
   "bugs": {
     "url": "https://github.com/pdfme/pdfme/issues"
   },
+  "main": "dist/cjs/src/index.js",
+  "module": "dist/esm/src/index.js",
+  "types": "dist/types/src/index.d.ts",
+  "exports": {
+    ".": {
+      "import": "./dist/esm/src/index.js",
+      "require": "./dist/cjs/src/index.js",
+      "types": "./dist/types/src/index.d.ts"
+    }
+  },
   "workspaces": [
     "packages/common",
     "packages/schemas",
