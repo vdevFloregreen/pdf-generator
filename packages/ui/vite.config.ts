@@ -18,5 +18,10 @@ export default defineConfig(({ mode }) => {
       include: ['react', 'react-dom', 'pdfjs-dist', 'antd'],
       exclude: ['@pdfme/common', '@pdfme/schemas'],
     },
+    resolve: {
+      alias: {
+        '@pdfme/common': 'common/dist/cjs/src/index.js'
+      },
+    },
   };
 });
