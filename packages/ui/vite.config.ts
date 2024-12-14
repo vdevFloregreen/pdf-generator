@@ -20,7 +20,7 @@ export default defineConfig(({ mode }) => {
     },
     resolve: {
       alias: {
-        '@pdfme/common': 'common/dist/cjs/src/index.js'
+        '@pdfme/ui': 'packages/ui/src/index.ts'
       },
     },
   };

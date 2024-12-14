@@ -2,9 +2,9 @@
   "extends": "../../tsconfig.base",
   "compilerOptions": {
     "module": "ESNext",
-    "outDir": "./dist/esm",
+    "outDir": "./dist/esm/src",
     "declaration": true,
-    "declarationDir": "dist/types",
+    "declarationDir": "dist/types/src",
     "skipLibCheck": true,
   }
 }

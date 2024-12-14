@@ -2,9 +2,9 @@
   "extends": "../../tsconfig.base",
   "compilerOptions": {
     "module": "commonjs",
-    "outDir": "./dist/cjs",
+    "outDir": "./dist/cjs/src",
     "declaration": true,
-    "declarationDir": "dist/types",
+    "declarationDir": "dist/types/src",
     "skipLibCheck": true,
   }
 }
